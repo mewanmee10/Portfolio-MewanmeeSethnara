@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+@layer utilities {
+  .bg-coral {
+    background-color: #F07868;
+  }
+  .text-navy {
+    color: #1A2634;
+  }
+}
